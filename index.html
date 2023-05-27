@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Jacob Farr</title>
+        <link rel="stylesheet" type="text/css" href="./stylesheets/stylesheetmain.css">
+    </head>
+
+    <!--Body-->
+    <body class="Background">
+
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <!--Breaks inserted to add space between navbar and first heading-->
+        <br>
+        <br>
+
+        <!--Background Video-->
+        <div id="Home">
+            <div class="videosize">
+                <video autoplay muted loop id="Typing_Video">
+                    <source src="./image/Video/stockvideo2.mp4" type="video/mp4">
+                    <!--Display message if video fails to run-->
+                    Your browser does not support HTML5 video.
+                </video>
+            </div>
+        </div>
+
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Jacob Farr's portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>If you can't fly, then run. If you can't run, then walk. If you can't walk, then crawl.
+                        <br> But whatever you do, you have to keep moving forward."
+                        <br>
+                    </q>
+                    <br> -Martin Luther King Jr.
+                    <br>
+                    <br> My name is Jacob Farr. Welcome to my portfolio website. On it, I will tell you about my background and experience.
+                    <br>
+                    <br> Thank you for stopping by and enjoy!
+                </p>
+            </strong>
+        </div>
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="./image/about_section.jpg" alt="About section">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I am an aspiring software developer. In my free time I enjoy trying new food and exploring my state!
+                    <br>
+                    <br>I am a graduate of COMING SOON
+                    <br>
+                    <br>COMING SOON <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!--GitHub section-->
+        <div class="Row" id="GitHub">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/Jakersf" target="_blank">My GitHub</a></p>
+                </p>
+            </div>
+            <!--Right Column-->
+            <div class="Column_2">
+                <a href="https://github.com/Jakersf" target="_blank"><img src="./image/github-logo-1.jpg" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_Tall">
+                <img src="./image/Contact_Image.jpg" alt="Contact_Image">
+            </div>
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_Tall">
+                <h1>Contact</h1>
+                <!--This specifies where and how to send the form data; we are leaving it blank-->
+                <form action="" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer section-->
+        <footer>
+            <p>
+                <p class="center">Jacob Farr &nbsp;|&nbsp; ecxzero1@gmail.com&nbsp;|&nbsp;<a href="" target="_blank">Resume?<!--Currently figuring out what to put here, will adjust it later.--></a></p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>
